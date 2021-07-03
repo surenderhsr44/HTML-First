@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Input type</title>
+</head>
+<body>
+	<h1> Registration for new Student</h1>
+<form align="center" style="background-color: lightgreen">
+Name : <input type="text" name="name" required=""><br>
+Genger:<input type="radio" name="gender" value="male" > Male
+  		<input type="radio" name="gender" value="female"> Female
+ 		 <input type="radio" name="gender" value="other"> Other<br>
+ Date of Birth :<input type="date" name="bdaymonth"><br><br>
+Email :<input type="email" name="email"><br>
+
+	Courses :<input type="checkbox" name="course1" value="java"> Java<br>
+  		 <input type="checkbox" name="course2" value="advance_java"> Advance Java<br>
+  		 <input type="checkbox" name="course3" value="basic"> Basic<br>
+Mobile No: <input type="number" name="number" pattern="[0-9]{9}" ><br><br>
+Password : <input type="pasword" name="password" required=""><br><br>
+<input type="submit" onclick="alert('Submit Detail')" value="Submit">
+	
+	
+</form>
+</body>
+</html>

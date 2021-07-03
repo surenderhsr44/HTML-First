@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Select car anf bike</title>
+</head>
+<body>
+
+<script >
+	function sum(aw) {
+var pic;
+		if (aw == 0)
+		 { 
+		  pic="car.gif"
+	}
+		else
+			{ 
+				pic="bike.gif"
+	}
+		document.getElementById("myImage").src = pic;
+		
+	}
+
+</script>
+<img id="myImage" src="bike.gif" width="200" height="300">
+<p>
+	<button type="button" onclick= "sum(0)">car</button>
+	<button type="button" onclick= "sum(1)">bike</button>
+</p>
+</body>
+</html>
